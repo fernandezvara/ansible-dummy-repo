@@ -1,7 +1,7 @@
 ---
 
 - name: Some random debug
-  hosts: hostGroup1
+  hosts: localgroup
   gather_facts: yes
   roles:
     - ../roles/debug
